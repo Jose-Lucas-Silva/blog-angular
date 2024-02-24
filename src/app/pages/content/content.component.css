@@ -1,0 +1,34 @@
+.container_content{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.content_title {
+  padding-top: 2em;
+}
+
+.content_cover > img{
+  border-radius: 5px;
+  width: 33vw;
+  min-width: 34vw;
+  height: 43vh;
+}
+
+.content_description{
+  padding-top: 2em;
+}
+
+.content_description > p {
+  text-align: center;
+  color: grey;
+}
+
+.content_description {
+  width: 40vw;
+}

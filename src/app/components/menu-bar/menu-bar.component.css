@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.container_menu-bar > ul > li {
+  padding: 0 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+<div class="container_big-card">
+  <a [routerLink]="['content', Id]"> <!--aqui o routerLink vai direcionar para o content e id que foi selecionado e colocado no home.component-->
+    <div class="big_card_photo">
+      <img src="{{ photoCover }}" alt="" heigth="200px" width="100%">
+    </div>
+    <div class="big_card_title">
+      <h2>{{ cardTitle }}</h2>
+    </div>
+    <div class="big_card_describe">
+      <p>{{ CardDescription }}</p>
+    </div>
+  </a>
+</div>
